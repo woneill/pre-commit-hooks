@@ -1,0 +1,7 @@
+---
+- id: check-helm-secrets-decrypted-files
+  name: Prevents decrypted secrets from being committed
+  description: Prevents decrypted secrets from being committed
+  entry: pre_commit_hooks/check-helm-secrets-decrypted-files.sh
+  language: script
+  files: secrets\.*.*.yaml
