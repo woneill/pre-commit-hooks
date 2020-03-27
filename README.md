@@ -22,7 +22,7 @@ Add to `.pre-commit-config.yaml` in your git repo:
     - repo: https://github.com/woneill/pre-commit-hooks
       rev: 1.0.0
       hooks:
-        - id: check-sops-decrypted-files
+        - id: check-helm-secrets-decrypted-files
 
 ## Two ways to invoke pre-commit
 
